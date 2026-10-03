@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 750" role="img">
+  <rect width="1200" height="750" fill="#121a2b"/>
+  <rect x="40" y="36" width="1120" height="72" rx="12" fill="#0b1220"/>
+  <text x="64" y="82" fill="#5eead4" font-family="sans-serif" font-size="28">Placeholder</text>
+  <rect x="40" y="136" width="280" height="574" rx="12" fill="#0b1220"/>
+  <rect x="64" y="168" width="200" height="18" rx="6" fill="#1e293b"/>
+  <rect x="64" y="204" width="160" height="14" rx="6" fill="#1e293b"/>
+  <rect x="64" y="250" width="232" height="64" rx="10" fill="#134e4a"/>
+  <rect x="64" y="334" width="232" height="64" rx="10" fill="#1e293b"/>
+  <rect x="348" y="136" width="812" height="360" rx="12" fill="#0b1220"/>
+  <rect x="376" y="168" width="220" height="28" rx="8" fill="#5eead4"/>
+  <rect x="376" y="220" width="520" height="16" rx="6" fill="#1e293b"/>
+  <rect x="376" y="252" width="420" height="16" rx="6" fill="#1e293b"/>
+  <rect x="376" y="320" width="756" height="140" rx="12" fill="#1e293b"/>
+  <rect x="348" y="516" width="390" height="194" rx="12" fill="#0b1220"/>
+  <rect x="766" y="516" width="394" height="194" rx="12" fill="#0b1220"/>
+</svg>

@@ -1,0 +1,7 @@
+node_modules
+.next
+out
+research
+.git
+*.md
+!README.md

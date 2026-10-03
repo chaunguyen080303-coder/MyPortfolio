@@ -1,0 +1,1166 @@
+[
+  {
+    "slug": "brittany-chiang",
+    "name": "Brittany Chiang",
+    "url": "https://brittanychiang.com",
+    "role": "Featured (required)",
+    "source": "required",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://brittanychiang.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Brittany Chiang",
+      "description": "Brittany Chiang is a software engineer who builds accessible, inclusive products and digital experiences for the web.",
+      "h1": "Brittany Chiang",
+      "headings": [
+        "Brittany Chiang",
+        "Frontend Engineer",
+        "ABOUT",
+        "EXPERIENCE",
+        "PROJECTS",
+        "WRITING"
+      ],
+      "nav": [
+        "Brittany Chiang",
+        "ABOUT",
+        "EXPERIENCE",
+        "PROJECTS",
+        "GitHub",
+        "LinkedIn",
+        "CodePen",
+        "Instagram",
+        "Goodreads"
+      ],
+      "background": "rgb(15, 23, 42)",
+      "color": "rgb(148, 163, 184)",
+      "fonts": [
+        "Times New Roman",
+        "__inter_20b187"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 0,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "SKIP TO CONTENT Brittany Chiang Frontend Engineer I build accessible, pixel-perfect experiences for the web. ABOUT EXPERIENCE PROJECTS GitHub LinkedIn CodePen Instagram Goodreads ABOUT Hi there! I'm Brittany, and I like building things. I'm a frontend engineer with expertise in crafting accessible, pixel-perfect user interfaces. I take pride in creating thoughtful, inclusive products and have a sharp eye for the litt"
+    },
+    "desktopBytes": 217342,
+    "mobileBytes": 116850
+  },
+  {
+    "slug": "delba",
+    "name": "Delba",
+    "url": "https://delba.dev",
+    "role": "Featured (required)",
+    "source": "required",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://delba.dev/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Portfolio",
+      "description": "",
+      "h1": "Portfolio",
+      "headings": [
+        "Portfolio",
+        "Work",
+        "Personal",
+        "About me"
+      ],
+      "nav": [],
+      "background": "lab(98.2686 -0.0991821 0.364304)",
+      "color": "rgb(0, 0, 0)",
+      "fonts": [
+        "Fraunces"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 0,
+      "libs": [],
+      "fixedOrSticky": 0,
+      "textSample": "Portfolio I’m looking for my next role in developer education or technical video production. If you’re hiring: Let's talk Work Next.js Docs: Built, authored, and maintained. Next.js Learn Built the new learning platform in collaboration with Design Engineering, and created two new courses: React Foundations and Next.js App Router . Next.js diagram system (Figma): A collection of diagrams to help explain Next.js topic"
+    },
+    "desktopBytes": 142696,
+    "mobileBytes": 63168
+  },
+  {
+    "slug": "lee-robinson",
+    "name": "Lee Robinson",
+    "url": "https://leerob.com",
+    "role": "Featured (required)",
+    "source": "required",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://leerob.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Lee Robinson",
+      "description": "Developer and writer.",
+      "h1": "@leerob",
+      "headings": [
+        "@leerob",
+        "Notes",
+        "Blogs"
+      ],
+      "nav": [],
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(40, 40, 40)",
+      "fonts": [
+        "Iowan Old Style Local",
+        "ui-sans-serif"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 107,
+      "libs": [
+        "three"
+      ],
+      "fixedOrSticky": 1,
+      "textSample": "@leerob Bio Default Long I’m an engineer and writer. I work on ML at SpaceX (formerly at Cursor), where I help train useful AI models. Previously, I worked at Vercel on Next.js. I’ve been coding for 15 years and teaching for the second half. My life’s work is to make technology easy to understand and interesting to learn about. I’m a husband to my much cooler wife, a father to two radiant daughters, and a massive mus"
+    },
+    "desktopBytes": 672628,
+    "mobileBytes": 38306
+  },
+  {
+    "slug": "adham-dannaway",
+    "name": "Adham Dannaway",
+    "url": "https://www.adhamdannaway.com",
+    "role": "UX/UI Designer & Frontend Developer",
+    "source": "required",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://www.adhamdannaway.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Adham Dannaway | Product designer & front end developer",
+      "description": "Product designer and front end developer with a passion for designing beautiful and functional user experiences.",
+      "h1": "designer",
+      "headings": [
+        "designer",
+        "<coder>"
+      ],
+      "nav": [
+        "Adham Dannaway",
+        "about",
+        "learn",
+        "portfolio",
+        "blog",
+        "contact",
+        "twitter",
+        "linkedin",
+        "facebook",
+        "instagram",
+        "about",
+        "learn",
+        "portfolio",
+        "blog",
+        "contact"
+      ],
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(51, 51, 51)",
+      "fonts": [
+        "proxima nova light",
+        "proxima nova bold"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 0,
+      "libs": [],
+      "fixedOrSticky": 0,
+      "textSample": "Adham Dannaway about learn portfolio blog contact twitter linkedin facebook instagram designer Product designer specialising in UI design and design systems. <coder> Front end developer who writes clean, elegant and efficient code. SOME OF MY LATEST WORK My Figma design system Design system My UI design book Book Creating a lean design system Design system © 2026 Adham Dannaway about learn portfolio blog contact Back"
+    },
+    "desktopBytes": 261879,
+    "mobileBytes": 4187
+  },
+  {
+    "slug": "bruno-simon",
+    "name": "Bruno Simon",
+    "url": "https://bruno-simon.com",
+    "role": "Three.js Developer",
+    "source": "required",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://bruno-simon.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Bruno's",
+      "description": "Bruno Simon's creative portfolio",
+      "h1": "",
+      "headings": [
+        "Three.js",
+        "Three.js Journey",
+        "Devlogs",
+        "Source code",
+        "Musics",
+        "Some more links"
+      ],
+      "nav": [],
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fonts": [
+        "Nunito",
+        "Amatic SC"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 1,
+      "videos": 0,
+      "animations": 0,
+      "libs": [
+        "three"
+      ],
+      "fixedOrSticky": 0,
+      "textSample": ""
+    },
+    "desktopBytes": 66930,
+    "mobileBytes": 29851
+  },
+  {
+    "slug": "paco",
+    "name": "Francisco Salido",
+    "url": "https://paco.fyi",
+    "role": "Software Engineer",
+    "source": "required",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://paco.fyi/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Francisco Salido — Full-Stack Engineer & Architect",
+      "description": "Francisco Salido is a full-stack engineer with 12+ years of experience in cybersecurity, enterprise APIs, and AI-powered products. Based in Málaga, Spain.",
+      "h1": "Hello, I architect full-stack systems defined by intentional simplicity ✨ and resilience.",
+      "headings": [
+        "Hello, I architect full-stack systems defined by intentional simplicity ✨ and resilience."
+      ],
+      "nav": [
+        "paco@home:~$",
+        "Projects",
+        "Pictures",
+        "CV",
+        "d projects/ things I built",
+        "d pictures/ photography",
+        "d guestbook/ leave a doodle",
+        "- cv.pdf résumé",
+        "Now",
+        "Guestbook",
+        "Colophon",
+        "Projects",
+        "Pictures"
+      ],
+      "background": "rgb(255, 255, 255)",
+      "color": "oklch(0.205 0 0)",
+      "fonts": [
+        "ui-sans-serif",
+        "Crimson Pro-42c2167379906305",
+        "ui-monospace"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 1,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "Skip to main content paco@home:~$ Projects / Pictures / CV drwxr-xr-x paco 2026 ./ d projects/ things I built d pictures/ photography d guestbook/ leave a doodle - cv.pdf résumé Say hi → Guestbook Hello, I architect full-stack systems defined by intentional simplicity ✨ and resilience. Over 12 years, I have worked in cybersecurity, built APIs for enterprise clients, and shipped AI-powered products in fast-moving team"
+    },
+    "desktopBytes": 129046,
+    "mobileBytes": 56360
+  },
+  {
+    "slug": "dauren-abasov",
+    "name": "Dauren Abasov",
+    "url": "https://dadashi44.vercel.app",
+    "role": "Frontend Engineer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://dadashi44.vercel.app/en",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Dauren Abasov — Frontend Developer",
+      "description": "Portfolio of an Almaty-based frontend developer: Nuxt 3, Vue 3, TypeScript, GSAP. Esports, marketplaces, fintech, govtech and mobile apps.",
+      "h1": "DAUREN ABASOV",
+      "headings": [
+        "DAUREN ABASOV",
+        "LET'S WORK TOGETHER"
+      ],
+      "nav": [
+        "D DADASHI",
+        "WORK",
+        "ABOUT",
+        "CONTACT",
+        "RU",
+        "EN",
+        "Home",
+        "Work",
+        "About",
+        "Contact",
+        "Telegram",
+        "GitHub",
+        "LinkedIn",
+        "Instagram"
+      ],
+      "background": "rgb(8, 8, 8)",
+      "color": "rgb(240, 240, 237)",
+      "fonts": [
+        "Inter",
+        "Bebas Neue"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 1,
+      "animations": 0,
+      "libs": [
+        "gsap"
+      ],
+      "fixedOrSticky": 1,
+      "textSample": "DAUREN ABASOV こんにちは 99 D DADASHI WORK ABOUT CONTACT RU EN DARK DAUREN ABASOV I'm a Frontend Developer Mobile Developer Backend Developer Frontend Developer 01 APPROACH I help brands stand out online: interfaces where considered design, restrained motion and honest performance all pull in one direction — turning an idea into a product people actually use. 02 WHAT I CAN HELP WITH 03 SELECTED WORK — 2022 / 2026 bigplay."
+    },
+    "desktopBytes": 23649,
+    "mobileBytes": 8547
+  },
+  {
+    "slug": "masab-qurban",
+    "name": "Masab Qurban",
+    "url": "https://www.masabqurban.com",
+    "role": "Software Engineer | Full Stack Developer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://www.masabqurban.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Masab Qurban - Software Engineer",
+      "description": "Masab Qurban - Senior Software Engineer and Full Stack Architect specializing in React.js, Next.js, Node.js, and PostgreSQL. Building scalable SaaS and high-performance web applications. Based in Faisalabad, Pakistan.",
+      "h1": "MASAB QURBAN",
+      "headings": [
+        "MASAB QURBAN",
+        "SOFTWARE ENGINEER",
+        "Selected work & explorations",
+        "W E B A P P S A I & S A A S E N T E R P R I S E E - C O M M E R C E",
+        "Client Success Stories",
+        "OPEN TO WORK",
+        "PAGES",
+        "FOLLOW ON"
+      ],
+      "nav": [],
+      "background": "rgb(231, 231, 223)",
+      "color": "rgb(26, 26, 25)",
+      "fonts": [
+        "Inter",
+        "Syne",
+        "ui-monospace"
+      ],
+      "cursor": "none",
+      "cursorNone": true,
+      "canvases": 2,
+      "videos": 0,
+      "animations": 9,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "Skip to content MASAB 91% MASAB QURBAN Full Stack Architect building scalable SaaS platforms and high-performance web applications with React.js, Next.js, Node.js, and PostgreSQL. SOFTWARE ENGINEER IbuildscalableSaaSplatformsandhigh-performancewebapps-sharpinterfaces,solidbackends,andsystemsthatholdupinproduction. YEARS OF EXPERIENCE 0.5+ PROJECTS COMPLETED 0+ HAPPY CLIENTS 0+ Selected work & explorations VIEW ALL PR"
+    },
+    "desktopBytes": 596100,
+    "mobileBytes": 145609
+  },
+  {
+    "slug": "tibor-igneczi",
+    "name": "Tibor Ignéczi",
+    "url": "https://igneczitibor.hu",
+    "role": "Full Stack Developer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://igneczitibor.hu/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Tibor Ignéczi",
+      "description": "Portfolio of Tibor Igneczi, showcasing 3D web experiences, selected projects, technical skills, and contact information.",
+      "h1": "Tibor Ignéczi — AI Engineer, Software Engineer, Web Developer, Game Developer",
+      "headings": [
+        "Tibor Ignéczi — AI Engineer, Software Engineer, Web Developer, Game Developer",
+        "Tibor Ignéczi"
+      ],
+      "nav": [
+        "About",
+        "Projects",
+        "Blog",
+        "About",
+        "Projects",
+        "Blog"
+      ],
+      "background": "rgb(248, 250, 252)",
+      "color": "rgb(0, 0, 0)",
+      "fonts": [
+        "Work Sans",
+        "Poppins"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 0,
+      "libs": [
+        "gsap",
+        "three",
+        "barba"
+      ],
+      "fixedOrSticky": 1,
+      "textSample": "Skip to content About Projects Blog Ctrl K HU Tibor Ignéczi — AI Engineer, Software Engineer, Web Developer, Game Developer Tibor Ignéczi Computer Science Master fromHungary AI Engineer | Software Engineer | Web Developer | Game Developer AI Engineer | Software Engineer | Web Developer | Game Developer Happy Halloween! LOADING INTERACTIVE SCENE... 00%"
+    },
+    "desktopBytes": 266890,
+    "mobileBytes": 316089
+  },
+  {
+    "slug": "priyanshu-ghosh",
+    "name": "Priyanshu Ghosh",
+    "url": "https://priyanshu-ghosh-seven.vercel.app",
+    "role": "Full Stack Developer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://priyanshu-ghosh-seven.vercel.app/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Priyanshu Ghosh — Portfolio",
+      "description": "Portfolio of Priyanshu Ghosh: CS undergrad, 7x hackathon winner, builder of agentic AI and distributed systems.",
+      "h1": "Priyanshu Ghosh — Computer Science student, developer portfolio",
+      "headings": [
+        "Priyanshu Ghosh — Computer Science student, developer portfolio"
+      ],
+      "nav": [],
+      "background": "oklch(0.16 0.02 160)",
+      "color": "oklch(0.88 0.19 145)",
+      "fonts": [
+        "JetBrains Mono"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 1,
+      "videos": 0,
+      "animations": 22,
+      "libs": [],
+      "fixedOrSticky": 0,
+      "textSample": "Priyanshu Ghosh — Computer Science student, developer portfolio [ OK ] BIOS v2.06 :: NODE_ANONYMOUS bootstrapping... [ OK ] mounting /dev/ghost0 -> /root [ OK ] spoofing MAC :: 00:1B:44:11:3A:B7 [ .. ] establishing tunnel 7 hops -> reykjavik -> kyiv -> tor exit [ OK ] tunnel established :: latency 41ms [ WARN ] intrusion countermeasures detected on target: FBI.CJIS.DB [ .. ] bruteforcing keyspace ...................."
+    },
+    "desktopBytes": 91966,
+    "mobileBytes": 61047
+  },
+  {
+    "slug": "naveen-kumar",
+    "name": "Naveen Kumar",
+    "url": "https://naveenweb.site",
+    "role": "Full Stack Developer | MERN Stack",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://www.naveenweb.site/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Naveen Kumar | MERN Stack Developer for Hire | React & Next.js Expert, Delhi NCR",
+      "description": "Hire Naveen Kumar — a top-rated Full Stack MERN Developer from Delhi NCR, India. Expert in React.js, Next.js, Node.js, MongoDB, TypeScript & AI-integrated SaaS apps. 10+ products built. Available for freelance & full-time roles.",
+      "h1": "",
+      "headings": [
+        "Technical Expertise & Core Web Development Skills"
+      ],
+      "nav": [
+        "Naveen . web",
+        "NARRATIVE",
+        "STACK",
+        "PROJECTS",
+        "EXPERIENCE",
+        "EDUCATION",
+        "UPLINK bolt",
+        "EXPLORE MY LATEST FULL STACK MERN PROJECTS arrow_outward"
+      ],
+      "background": "rgb(248, 250, 252)",
+      "color": "rgb(15, 23, 42)",
+      "fonts": [
+        "Outfit"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 2,
+      "videos": 0,
+      "animations": 263,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "Naveen . web NARRATIVE STACK PROJECTS EXPERIENCE EDUCATION dark_mode UPLINK bolt E Senior Full Stack Developer specializing in React.js and Node.js. I build scalable, user-centric digital products for startups and enterprises. EXPLORE MY LATEST FULL STACK MERN PROJECTS arrow_outward download ACQUIRE RESUME terminal layers ARCHITECTURAL NARRATIVE Technical Expertise & Core Web Development Skills As a dedicated Full St"
+    },
+    "desktopBytes": 413747,
+    "mobileBytes": 73174
+  },
+  {
+    "slug": "rajesh-pal",
+    "name": "Rajesh Pal",
+    "url": "https://rajs.app",
+    "role": "Full Stack Developer | AI Enthusiast",
+    "source": "random",
+    "ok": false,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://rajs.app/",
+    "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
+    "mobileError": null,
+    "audit": {
+      "title": "Rajesh Pal - Full Stack Developer",
+      "description": "",
+      "h1": "RAJESH PAL",
+      "headings": [
+        "Hello! I'm",
+        "RAJESH PAL",
+        "AI/ML ENGINEER FULL STACK DEVELOPER",
+        "FULL STACK DEVELOPER AI/ML ENGINEER",
+        "Experience, education & certifications",
+        "My Work",
+        "MY TECHSTACK",
+        "Designed and Developed by Rajesh Pal"
+      ],
+      "nav": [],
+      "background": "rgb(5, 8, 16)",
+      "color": "rgb(234, 229, 236)",
+      "fonts": [
+        "Geist",
+        "Arial"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 2,
+      "videos": 0,
+      "animations": 8,
+      "libs": [
+        "scrolltrigger",
+        "three"
+      ],
+      "fixedOrSticky": 1,
+      "textSample": "RP FULL STACK DEVELOPER SOFTWARE ENGINEER FULL STACK DEVELOPER SOFTWARE ENGINEER FULL STACK DEVELOPER SOFTWARE ENGINEER FULL STACK DEVELOPER SOFTWARE ENGINEER LOADING 11% WELCOME RP rajeshpal31082001@gmail.com ABOUT ABOUT WORK WORK CONTACT CONTACT RESUME RESUME Hello! I'm RAJESH PAL An Aspiring AI/ML ENGINEER FULL STACK DEVELOPER FULL STACK DEVELOPER AI/ML ENGINEER Experience, education & certifications Computer Anal"
+    },
+    "desktopBytes": 45087,
+    "mobileBytes": 14348
+  },
+  {
+    "slug": "nikhila-koneru",
+    "name": "Nikhila Koneru",
+    "url": "https://nikhilakoneru.com",
+    "role": "Full Stack Developer | DevOps Engineer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://nikhilakoneru.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Nikhila Koneru - Portfolio",
+      "description": "Master's in Computer Science student at Northeastern University | Full-stack Developer | Cloud Computing Enthusiast",
+      "h1": "Nikhila Koneru",
+      "headings": [
+        "Nikhila Koneru",
+        "Featured Projects",
+        "Technical Skills",
+        "Achievements & Impact",
+        "What People Say"
+      ],
+      "nav": [
+        "Nikhila Koneru",
+        "Home",
+        "About",
+        "Experience",
+        "Projects",
+        "Blog",
+        "Contact",
+        "Home",
+        "About",
+        "Experience",
+        "Projects",
+        "Blog",
+        "Contact"
+      ],
+      "background": "oklch(1 0 0)",
+      "color": "oklch(0.2 0.02 260)",
+      "fonts": [
+        "ui-sans-serif"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 1,
+      "videos": 0,
+      "animations": 31,
+      "libs": [
+        "three"
+      ],
+      "fixedOrSticky": 1,
+      "textSample": "Nikhila Koneru Home About Experience Projects Blog Contact Hello, I'm Nikhila Koneru Master's in Computer Science Student Full-Stack Dev| View Projects Get In Touch Featured Projects A selection of my recent work showcasing full-stack development and cloud computing BillRewards | Universal Loyalty Platform Blockchain-powered universal loyalty solution converting receipts into crypto rewards • OCR receipt verification"
+    },
+    "desktopBytes": 403613,
+    "mobileBytes": 153857
+  },
+  {
+    "slug": "maciej-pulikowski",
+    "name": "Maciej Pulikowski",
+    "url": "https://pulik.dev",
+    "role": "Software Engineer & Security Researcher",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://pulik.dev/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Maciej Pulikowski",
+      "description": "Software Engineer and Security Researcher focusing on AI, and Security. Happy reading! 🤠",
+      "h1": "Hi, I'm Maciej 👋",
+      "headings": [
+        "Hi, I'm Maciej 👋",
+        "About",
+        "From Blog",
+        "Featured Projects",
+        "Security Research",
+        "CVE-2022-0337 - System environment variables leak",
+        "CVE-2022-3443 - Possible RCE by DLL hijacking",
+        "CVE-2021-21123 - Insufficient data validation in File System API",
+        "CVE-2021-21129 - Insufficient data validation in File System API",
+        "CVE-2021-21130 - Insufficient data validation in File System API",
+        "CVE-2021-21131 - File System Access API vulnerabilities",
+        "CVE-2021-21172 - File System Access API vulnerabilities",
+        "CVE-2021-21141 - Insufficient data validation in File System API",
+        "Hackathons Projects"
+      ],
+      "nav": [],
+      "background": "rgb(8, 9, 10)",
+      "color": "rgb(250, 250, 250)",
+      "fonts": [
+        "__Plus_Jakarta_Sans_6b8127"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 0,
+      "libs": [],
+      "fixedOrSticky": 0,
+      "textSample": "Hi, I'm Maciej 👋 Software Engineer and Security Researcher focusing on AI, and Security. Happy reading! 🤠 About I'm passionate about building innovative AI solutions and finding security vulnerabilities. I've discovered 8 security vulnerabilities in Google Chrome, earned over $23,000 in rewards and ranked in Google's top-100 security researchers. I'm currently focused on developing JsonGPT, an AI-powered API that p"
+    },
+    "desktopBytes": 146077,
+    "mobileBytes": 94192
+  },
+  {
+    "slug": "luke-liukonen",
+    "name": "Luke Liukonen",
+    "url": "https://liukonen.dev",
+    "role": "Senior Software Engineer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://liukonen.dev/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Luke Liukonen - dev",
+      "description": "about page for Luke Liukonen. Senior Software Engineer // Technical Lead :: AI Strategy :: Infrastructure",
+      "h1": "Luke Liukonen",
+      "headings": [
+        "Luke Liukonen",
+        "LEADERSHIP▼",
+        "ALIGNMENT▼",
+        "EXECUTION▼"
+      ],
+      "nav": [
+        "/ HOME",
+        "/ SHOWCASE",
+        "/ CASE_STUDIES",
+        "/ WRITEUPS",
+        "/ OPEN_SOURCE",
+        "/ CAREER",
+        "/ CONTACT",
+        "/ ARCHIVE"
+      ],
+      "background": "rgb(15, 16, 18)",
+      "color": "rgb(230, 230, 230)",
+      "fonts": [
+        "IBM Plex Sans",
+        "Cascadia Code",
+        "Arial"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 1,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "Liukonen.dev Luke Liukonen SENIOR FULL STACK SOFTWARE ENGINEER // TECHNICAL LEAD // AI STRATEGY // INFRASTRUCTURE / HOME / SHOWCASE / CASE_STUDIES / WRITEUPS / OPEN_SOURCE / CAREER / CONTACT / ARCHIVE ~/root Hi, I’m Luke. I’m a Software Engineer and Technical Lead with 20 years of experience. I specialize in the \"invisible\" side of tech: the infrastructure, automation, and system design that makes software stable and"
+    },
+    "desktopBytes": 257671,
+    "mobileBytes": 65666
+  },
+  {
+    "slug": "lamine-neggazi",
+    "name": "Lamine Neggazi",
+    "url": "https://lamine.cc",
+    "role": "Full Stack Developer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://lamine.cc/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Lamine",
+      "description": "",
+      "h1": "",
+      "headings": [],
+      "nav": [],
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(0, 0, 0)",
+      "fonts": [
+        "JetBrains Mono"
+      ],
+      "cursor": "none",
+      "cursorNone": true,
+      "canvases": 2,
+      "videos": 0,
+      "animations": 18,
+      "libs": [],
+      "fixedOrSticky": 0,
+      "textSample": "LAMINE NEGGAZI WEB DEVELOPER 100%"
+    },
+    "desktopBytes": 45514,
+    "mobileBytes": 20997
+  },
+  {
+    "slug": "philippe-fanaro",
+    "name": "Philippe Fanaro",
+    "url": "https://aquarifolio.vercel.app",
+    "role": "Full Stack Developer",
+    "source": "random",
+    "ok": false,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://aquarifolio.vercel.app/",
+    "error": "page.screenshot: Timeout 30000ms exceeded.\nCall log:\n  - taking page screenshot\n  - waiting for fonts to load...\n  - fonts loaded\n",
+    "mobileError": null,
+    "audit": {
+      "title": "Philippe Fanaro's Three.js Portfolio",
+      "description": "Philippe Fanaro's Three.js Portfolio",
+      "h1": "Philippe Fanaro | Full Stack Dev",
+      "headings": [
+        "Philippe Fanaro | Full Stack Dev"
+      ],
+      "nav": [
+        "Philippe Fanaro | Full Stack Dev"
+      ],
+      "background": "rgb(2, 8, 23)",
+      "color": "rgb(248, 250, 252)",
+      "fonts": [
+        "__Inter_d65c78"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 1,
+      "videos": 0,
+      "animations": 1,
+      "libs": [
+        "three"
+      ],
+      "fixedOrSticky": 0,
+      "textSample": "Philippe Fanaro | Full Stack Dev"
+    },
+    "desktopBytes": 0,
+    "mobileBytes": 140272
+  },
+  {
+    "slug": "paritosh-khubchandani",
+    "name": "Paritosh Khubchandani",
+    "url": "https://paritosh-dev.vercel.app",
+    "role": "Full Stack Developer | React, Next.js, Django, FastAPI",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://paritosh-dev.vercel.app/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Freelance React & Django Developer | Paritosh Khubchandani",
+      "description": "Freelance full stack developer specializing in React, Next.js, Django and Node.js. Available for startup MVPs and scalable web applications. India-based, globally available. ₹500/hr.",
+      "h1": "I Build Startup MVPs for Startups & Businesses",
+      "headings": [
+        "I Build Startup MVPs for Startups & Businesses",
+        "Services Built for Startups & Founders",
+        "Things I've Built",
+        "8+ Years of Hands-On Expertise",
+        "The Developer Behind the Product",
+        "Work History",
+        "How I Work",
+        "Get In Touch"
+      ],
+      "nav": [
+        "paritosh.dev",
+        "Services",
+        "Projects",
+        "Tech Stack",
+        "About",
+        "How I Work",
+        "Contact",
+        "Hire Me",
+        "About",
+        "Projects",
+        "Services",
+        "Hire Me",
+        "Contact"
+      ],
+      "background": "rgb(34, 40, 49)",
+      "color": "rgb(238, 238, 238)",
+      "fonts": [
+        "Inter",
+        "Sora",
+        "ui-monospace"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 16,
+      "libs": [
+        "framer"
+      ],
+      "fixedOrSticky": 1,
+      "textSample": "paritosh.dev Services Projects Tech Stack About How I Work Contact Hire Me Toggle theme Open to Freelance I Build Startup MVPs for Startups & Businesses 8+ years as Lead Engineer. I turn product ideas into production-ready web apps - fast, scalable, built to grow. 🤝 Hire Me View My Work R React N Next.js Dj Django FA FastAPI No Node.js Ns NestJS PG PostgreSQL Mo MongoDB 8+ Years 40+ Projects 4 Industries 24h Respons"
+    },
+    "desktopBytes": 137840,
+    "mobileBytes": 65682
+  },
+  {
+    "slug": "lai-huishan",
+    "name": "Lai Huishan",
+    "url": "https://shan-verse.com",
+    "role": "Full Stack Developer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://shan-verse.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Home | SHAN-VERSE",
+      "description": "Curiosity fuels the journey, code lights the way.",
+      "h1": "SHAN VERSE",
+      "headings": [
+        "SHAN VERSE",
+        "Signal Map",
+        "Featured Works",
+        "Latest Posts",
+        "Keep the signal warm"
+      ],
+      "nav": [
+        "✧ SHAN-VERSE ✧",
+        "About",
+        "Projects",
+        "Timeline",
+        "Blog",
+        "EN",
+        "中",
+        "日"
+      ],
+      "background": "rgb(10, 10, 15)",
+      "color": "rgb(245, 245, 245)",
+      "fonts": [
+        "Crimson Pro",
+        "Arial",
+        "JetBrains Mono",
+        "Cinzel"
+      ],
+      "cursor": "url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='3' fill='%23d4a84b'/%3E%3Ccircle cx='12' cy='12' r='6' fill='none' stroke='%23d4a84b' stroke-width='1' opacity='0.5'/%3E%3C/svg%3E\") 12 12, auto",
+      "cursorNone": false,
+      "canvases": 1,
+      "videos": 0,
+      "animations": 0,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "shan> SHAN CLI × type help for commands shan> ✧ SHAN-VERSE ✧ About Projects Timeline Blog EN 中 日 WELCOME TO SHAN VERSE Curiosity fuels the journey, code lights the way. Hi, I'm Lai HuiShan — A person who loves the world. If you want to know more About Me, please click on \"About Me\" button below. About Me Enter Atlas CURRENT STATUS Newlywed Married · July 9, 2026 Alps Alpine Co., Ltd Iwaki, Japan Embedded Software Dev"
+    },
+    "desktopBytes": 152281,
+    "mobileBytes": 74044
+  },
+  {
+    "slug": "cristopher-coronado",
+    "name": "Cristopher Coronado Moreira",
+    "url": "https://cristopher-coronado-portfolio.vercel.app/",
+    "role": "Full Stack Developer | .NET/Angular",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://cristopher-coronado-portfolio.vercel.app/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Home",
+      "description": "Cristopher Coronado, Senior AI Engineer focused on agentic AI and production LLM systems. I build autonomous agents, MCP servers, and RAG pipelines with Python, LangGraph, Anthropic Claude, and Azure OpenAI, on top of 6+ years of backend engineering. Microsoft MVP (AI) and AWS Community Builder.",
+      "h1": "Hi, I'm Cristopher Coronado",
+      "headings": [
+        "Hi, I'm Cristopher Coronado",
+        "Featured Projects",
+        "Skills & Technologies"
+      ],
+      "nav": [
+        "Cristopher Coronado",
+        "Home",
+        "Projects",
+        "Skills",
+        "Awards",
+        "Articles",
+        "About",
+        "Contact",
+        "Projects",
+        "Skills",
+        "About",
+        "Contact"
+      ],
+      "background": "rgb(255, 255, 255)",
+      "color": "rgb(15, 23, 42)",
+      "fonts": [
+        "ui-sans-serif"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 5,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "Cristopher Coronado Home Projects Skills Awards Articles About Contact Currently @ Feltsense · open to new opportunities Hi, I'm Cristopher Coronado Senior AI Engineer | Agentic AI & LLM Systems Microsoft MVP (AI) | Azure & AWS Certified I build autonomous AI agents and production LLM systems, from agent orchestration and MCP servers to RAG pipelines, with Python, LangGraph, Anthropic Claude, and Azure OpenAI. That b"
+    },
+    "desktopBytes": 215256,
+    "mobileBytes": 100931
+  },
+  {
+    "slug": "ilija-korodic",
+    "name": "Ilija Korodic",
+    "url": "https://ilijakorodic.com",
+    "role": "Frontend & Webflow Developer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://ilijakorodic.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Ilija Korodic | Frontend Developer — React, Tailwind, Webflow",
+      "description": "Frontend developer specializing in React, Tailwind CSS, and interactive web experiences. Open for freelance work. View my projects and get in touch.",
+      "h1": "Ilija Korodic — Frontend & Webflow Developer",
+      "headings": [
+        "Ilija Korodic — Frontend & Webflow Developer",
+        "[02] — ABOUT",
+        "Things I've shipped shipped shipped shipped . — Portfolio Projects by Ilija Korodic",
+        "Got a project? Let's make it real — Contact Ilija Korodic for freelance web development",
+        "Have a project? Let's talk"
+      ],
+      "nav": [
+        "A b o u t A b o u t",
+        "W o r k W o r k",
+        "01About",
+        "02Work"
+      ],
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fonts": [
+        "Montserrat",
+        "ui-monospace"
+      ],
+      "cursor": "none",
+      "cursorNone": true,
+      "canvases": 3,
+      "videos": 0,
+      "animations": 7,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "Skip to content A b o u t A b o u t W o r k W o r k C o n t a c t C o n t a c t AVAILABLE [01] — HOME Ilija Korodic — Frontend & Webflow Developer Frontend & Webflow Developer I build landing pages, business sites, and web apps that look sharp and actually convert. Speed without quality isn't speed — what you see is what you get. See the work Get in touch SCROLL REACT ✦ TAILWIND ✦ NEXT.JS ✦ WEBFLOW ✦ SUPABASE ✦ FIGMA"
+    },
+    "desktopBytes": 869559,
+    "mobileBytes": 236769
+  },
+  {
+    "slug": "sharif-rahat",
+    "name": "Sharif Rahat",
+    "url": "https://sharifrahat.com",
+    "role": "Full Stack Developer",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://sharifrahat.com/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Mohammad Sharif | Senior Software Engineer",
+      "description": "Mohammad Sharif — Senior Software Engineer. Senior Software Engineer · Full Stack · 4.5+ years building products",
+      "h1": "Mohammad Sharif",
+      "headings": [
+        "Mohammad Sharif",
+        "Experience",
+        "Skills & Tools",
+        "Projects",
+        "Articles",
+        "Testimonials",
+        "Contributions",
+        "Contact"
+      ],
+      "nav": [
+        "Home",
+        "Experience",
+        "Skills",
+        "Projects",
+        "Articles",
+        "Contact",
+        "Home",
+        "Experience",
+        "Articles",
+        "Contact"
+      ],
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(0, 0, 0)",
+      "fonts": [
+        "ui-sans-serif",
+        "Poppins",
+        "Oswald"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 19,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "Home Experience Skills Projects Articles Contact Available for opportunities Hi, I'm Mohammad Sharif Senior Software Engineer Chattogram, Bangladesh I'm a Senior Software Engineer with 4.5+ years of experience designing and shipping production-grade web applications end to end. I specialize in building scalable backends and clean, performant frontends, and I enjoy turning ambiguous product requirements into reliable,"
+    },
+    "desktopBytes": 595898,
+    "mobileBytes": 241514
+  },
+  {
+    "slug": "ashutosh-dash",
+    "name": "Ashutosh Dash",
+    "url": "https://ashutoshdash.in",
+    "role": "Frontend Engineer | ReactJS, Next.js",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://ashutoshdash.in/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Ashutosh Dash - Frontend Developer | React & Next.js",
+      "description": "Frontend engineer building fast, scalable web apps with React, Next.js & TypeScript. Skilled in modern UI frameworks and passionate about crafting clean interfaces.",
+      "h1": "Ashutosh Dash",
+      "headings": [
+        "Ashutosh Dash",
+        "Frontend Developer | React & Next.js",
+        "Experience",
+        "Projects",
+        "Frequently asked questions",
+        "Reviews"
+      ],
+      "nav": [
+        "5.14.3",
+        "Insights",
+        "Open Source Contributions",
+        "Collaborations"
+      ],
+      "background": "lab(90.0474 9.81006 -19.9946)",
+      "color": "lab(0 0 0)",
+      "fonts": [
+        "DM Sans"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 4,
+      "libs": [],
+      "fixedOrSticky": 1,
+      "textSample": "Skip to content 5.14.3 Insights Open Source Contributions Collaborations Ashutosh Dash Frontend Developer | React & Next.js Frontend engineer building fast, scalable web apps with React, Next.js & TypeScript. Skilled in modern UI frameworks and passionate about crafting clean interfaces. View my Resume Start Game React Next.js React Native TypeScript JavaScript HTML CSS Mantine UI Ant Design Material UI Chakra UI Tai"
+    },
+    "desktopBytes": 38154,
+    "mobileBytes": 48609
+  },
+  {
+    "slug": "sairithik",
+    "name": "Sairithik Komuravelly",
+    "url": "https://heysai.dev",
+    "role": "Full Stack Engineer | AI Integration & Tooling",
+    "source": "random",
+    "ok": true,
+    "mobileOk": true,
+    "status": 200,
+    "finalUrl": "https://heysai.dev/",
+    "error": null,
+    "mobileError": null,
+    "audit": {
+      "title": "Sai",
+      "description": "",
+      "h1": "SAIRITHIK KOMURAVELLY.",
+      "headings": [
+        "SAIRITHIK KOMURAVELLY."
+      ],
+      "nav": [],
+      "background": "rgb(7, 7, 7)",
+      "color": "rgb(237, 237, 223)",
+      "fonts": [
+        "Geist",
+        "JetBrains Mono",
+        "IBM Plex Sans Condensed"
+      ],
+      "cursor": "auto",
+      "cursorNone": false,
+      "canvases": 0,
+      "videos": 0,
+      "animations": 9,
+      "libs": [
+        "spline"
+      ],
+      "fixedOrSticky": 0,
+      "textSample": "SAIRITHIK KOMURAVELLY CALIBRATING 100% [AUTOMATION WITH PURPOSE] SAIRITHIK8639@GMAIL.COM▌ GITHUB LINKEDIN RESUME SAIRITHIK KOMURAVELLY. Full-Stack Engineer specializing in AI Integration & Tooling I engineer software at the intersection of infrastructure, data, and AI. Over the past few years, I've built distributed services processing 10M+ daily requests, developed intelligent automation systems, and delivered tools"
+    },
+    "desktopBytes": 182783,
+    "mobileBytes": 33262
+  }
+]
