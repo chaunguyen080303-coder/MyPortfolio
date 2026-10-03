@@ -24,6 +24,7 @@ jobs:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: upload
+          skip_deploy_on_missing_secrets: true
           app_location: out
           api_location: ""
           output_location: ""
@@ -37,3 +38,4 @@ jobs:
         with:
           azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
           action: close
+          skip_deploy_on_missing_secrets: true

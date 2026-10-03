@@ -69,8 +69,10 @@ Workflow: `.github/workflows/azure-static-web-apps.yml`.
 
 1. Tạo Static Web App trên Azure, chọn plan Free nếu đủ.
 2. Lấy deployment token.
-3. Thêm secret `AZURE_STATIC_WEB_APPS_API_TOKEN` trong GitHub repo.
+3. Thêm secret `AZURE_STATIC_WEB_APPS_API_TOKEN` trong GitHub repo (Settings → Secrets and variables → Actions).
 4. Đẩy lên nhánh `main`. Workflow cài dependency, chạy `npm run build`, rồi upload thư mục `out`.
+
+Chưa có secret thì bước deploy được bỏ qua (`skip_deploy_on_missing_secrets`) và job vẫn xanh. Build vẫn chạy.
 
 `public/staticwebapp.config.json` được copy vào bản build để 404 trả về `404.html`.
 
