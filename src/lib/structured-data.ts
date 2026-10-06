@@ -19,6 +19,7 @@ export function personJsonLd(content: SiteContent) {
     ...(sameAs.length > 0 ? { sameAs } : {}),
     address: {
       "@type": "PostalAddress",
+      addressLocality: "Hanoi",
       addressCountry: "VN",
     },
     knowsLanguage: profile.languages.map((language) => language.name),

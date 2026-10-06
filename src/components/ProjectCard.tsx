@@ -9,14 +9,18 @@ export function ProjectCard({
   viewLabel,
   liveLabel,
   codeLabel,
+  privateLabel,
   frameLabel,
+  flowLabel,
   priority = false,
 }: {
   project: Project;
   viewLabel: string;
   liveLabel: string;
   codeLabel: string;
+  privateLabel: string;
   frameLabel: string;
+  flowLabel: string;
   priority?: boolean;
 }) {
   const liveUrl = usableHref(project.liveUrl);
@@ -25,7 +29,13 @@ export function ProjectCard({
   return (
     <article className="group">
       <Link href={`/projects/${project.slug}`} className="block rounded-xl">
-        <ProjectFrame image={project.image} label={frameLabel} priority={priority} />
+        <ProjectFrame
+          image={project.image}
+          flow={project.flow}
+          label={project.flow ? flowLabel : frameLabel}
+          priority={priority}
+          decorative
+        />
         <h3 className="mt-4 text-lg font-semibold text-ink transition-colors duration-200 group-hover:text-accent">
           {project.title}
         </h3>
@@ -56,6 +66,14 @@ export function ProjectCard({
             <a href={codeUrl} className="text-accent" target="_blank" rel="noreferrer">
               {codeLabel}
             </a>
+          </>
+        ) : null}
+        {project.confidential ? (
+          <>
+            <span className="px-2 text-muted" aria-hidden="true">
+              /
+            </span>
+            <span className="text-muted">{privateLabel}</span>
           </>
         ) : null}
       </p>

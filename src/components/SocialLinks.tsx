@@ -25,9 +25,9 @@ export function SocialLinks({
           <a
             href={link.href}
             className="text-sm font-medium text-muted hover:text-accent"
-            {...(link.href.startsWith("http")
-              ? { target: "_blank", rel: "noreferrer" }
-              : {})}
+            {...(link.href.startsWith("mailto:")
+              ? {}
+              : { target: "_blank", rel: "noreferrer" })}
           >
             {link.label}
           </a>

@@ -67,7 +67,13 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
           <TagList tags={project.tags} />
         </div>
         <div className="group mt-8">
-          <ProjectFrame image={project.image} label={content.ui.preview} priority />
+          <ProjectFrame
+            image={project.image}
+            flow={project.flow}
+            label={project.flow ? content.ui.flow : content.ui.preview}
+            priority
+            tall
+          />
         </div>
         <div className="mt-10 space-y-8">
           {sections.map((section) => (
@@ -79,7 +85,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
             </section>
           ))}
         </div>
-        {liveUrl || codeUrl ? (
+        {liveUrl || codeUrl || project.confidential ? (
           <p className="mt-8 text-sm font-medium">
             {liveUrl ? (
               <a href={liveUrl} className="text-accent" target="_blank" rel="noreferrer">
@@ -95,6 +101,9 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
               <a href={codeUrl} className="text-accent" target="_blank" rel="noreferrer">
                 {content.ui.code}
               </a>
+            ) : null}
+            {project.confidential ? (
+              <span className="text-muted">{content.ui.privateDemo}</span>
             ) : null}
           </p>
         ) : null}

@@ -7,16 +7,18 @@ export function Nav({
   items,
   onNavigate,
   id,
+  dense = false,
 }: {
   items: NavItem[];
   onNavigate?: () => void;
   id?: string;
+  dense?: boolean;
 }) {
   const activeId = useActiveSection(items.map((item) => item.id));
 
   return (
     <nav id={id} aria-label="Sections">
-      <ul className="space-y-1">
+      <ul className={dense ? "space-y-0.5" : "space-y-1"}>
         {items.map((item) => {
           const active = item.id === activeId;
           return (
@@ -25,7 +27,7 @@ export function Nav({
                 href={`#${item.id}`}
                 aria-current={active ? "true" : undefined}
                 onClick={onNavigate}
-                className={`group flex items-center rounded-md py-1.5 text-sm font-medium ${active ? "text-accent" : "text-muted"}`}
+                className={`group flex items-center rounded-md text-sm font-medium ${dense ? "py-0.5" : "py-1"} ${active ? "text-accent" : "text-muted"}`}
               >
                 <span
                   aria-hidden="true"

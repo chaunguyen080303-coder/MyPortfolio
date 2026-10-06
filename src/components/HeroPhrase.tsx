@@ -44,7 +44,7 @@ export function HeroPhrase({ frames, tagline }: { frames: string[]; tagline: str
 
   return (
     <>
-      <p className="max-w-sm min-h-24 text-sm leading-6 text-ink" aria-hidden="true">
+      <p className="max-w-sm min-h-[4.5rem] text-sm leading-6 text-ink" aria-hidden="true">
         <span
           className={`block transition-opacity duration-300 motion-reduce:transition-none ${shown ? "opacity-100" : "opacity-0"}`}
         >

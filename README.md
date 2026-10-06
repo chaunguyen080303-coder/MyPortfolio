@@ -89,10 +89,7 @@ Mở http://localhost:8080.
 
 ## Việc còn để `[[TODO]]`
 
-- `src/data/en/profile.ts`: họ tên, email, Upwork, GitHub, LinkedIn, CV
 - `src/data/en/index.ts`: `siteUrl` (đang là `https://example.com`)
-- `src/data/en/experience.ts`: thời gian, công ty, vai trò, kết quả
-- `src/data/en/projects.ts`: mỗi `result` còn `[[TODO: metric]]`
-- `public/projects/*.svg`: thay bằng screenshot thật, và sửa `alt` trong `projects.ts`
+- Ảnh UI của dự án riêng tư — cố ý không đăng. Thay bằng sơ đồ luồng (React Flow) trong case study
 
-Chưa điền link thì nút Upwork và email đưa về mục Contact, và icon mạng xã hội chưa hiện. Không bịa tên khách hay số liệu.
+CV nằm ở `public/Nguyen_A_Chau_CV.pdf`. Không bịa tên khách hay số liệu.

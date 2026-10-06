@@ -28,6 +28,28 @@ export type ProjectImage = {
   height: number;
 };
 
+export type FlowNode = {
+  id: string;
+  kind: string;
+  title: string;
+  x: number;
+  y: number;
+};
+
+export type FlowEdge = {
+  id: string;
+  source: string;
+  target: string;
+  label?: string;
+  sourceHandle?: "right" | "bottom";
+  targetHandle?: "left" | "top";
+};
+
+export type ProjectFlow = {
+  nodes: FlowNode[];
+  edges: FlowEdge[];
+};
+
 export type Project = {
   slug: string;
   title: string;
@@ -37,8 +59,11 @@ export type Project = {
   result: string;
   tags: string[];
   image: ProjectImage;
+  flow?: ProjectFlow;
   liveUrl?: string;
   codeUrl?: string;
+  /** True when the product cannot be linked or screenshotted. */
+  confidential?: boolean;
 };
 
 export type ProcessStep = {
@@ -89,8 +114,10 @@ export type SiteContent = {
     result: string;
     viewProject: string;
     preview: string;
+    flow: string;
     live: string;
     code: string;
+    privateDemo: string;
     cv: string;
     footer: string;
     notFoundTitle: string;

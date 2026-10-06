@@ -55,6 +55,41 @@
 
 html {
   scroll-behavior: auto;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--muted) 72%, var(--canvas)) transparent;
+}
+
+@supports selector(::-webkit-scrollbar) {
+  html {
+    scrollbar-width: auto;
+    scrollbar-color: auto;
+  }
+}
+
+html::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, var(--muted) 62%, var(--canvas));
+  border: 4px solid transparent;
+  border-radius: 999px;
+  background-clip: padding-box;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: color-mix(in srgb, var(--muted) 88%, var(--canvas));
+}
+
+html::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -118,4 +153,30 @@ body::before {
 
 a {
   text-underline-offset: 3px;
+}
+
+.flow-diagram .react-flow {
+  --xy-background-color: transparent;
+  background: transparent;
+  font-family: inherit;
+}
+
+.flow-diagram .react-flow__attribution,
+.flow-diagram .react-flow__panel {
+  display: none;
+}
+
+.flow-diagram .react-flow__node {
+  cursor: default;
+}
+
+.flow-diagram .react-flow__handle {
+  pointer-events: none;
+  opacity: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flow-diagram .react-flow__edge-path {
+    animation: none;
+  }
 }

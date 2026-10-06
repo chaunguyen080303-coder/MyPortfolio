@@ -4,17 +4,17 @@ export const skills: SkillGroup[] = [
   {
     id: "frontend",
     label: "Frontend",
-    items: ["React", "Next.js", "TypeScript", "Tailwind CSS"],
+    items: ["React", "Next.js", "TypeScript", "JavaScript", "Tailwind CSS", "WordPress"],
   },
   {
     id: "backend",
     label: "Backend",
-    items: ["Node.js", "REST APIs", "SQL"],
+    items: ["Node.js", "REST APIs", "PostgreSQL", "MongoDB", "Python", "PHP"],
   },
   {
     id: "devops",
     label: "DevOps / Cloud",
-    items: ["Docker", "Azure Static Web Apps", "Vercel"],
+    items: ["Azure", "Docker", "Vercel", "Power Automate"],
   },
   {
     id: "integrations",

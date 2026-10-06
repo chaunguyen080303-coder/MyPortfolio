@@ -1,3 +1,4 @@
+import type { ReactNode } from "react";
 import { ExperienceCard } from "@/components/ExperienceCard";
 import { MobileHeader } from "@/components/MobileHeader";
 import { ProjectCard } from "@/components/ProjectCard";
@@ -15,7 +16,15 @@ export function PortfolioHome({ content }: { content: SiteContent }) {
   const upworkHref = usableHref(profile.upworkUrl);
   const emailHref = mailtoHref(profile.email);
   const cvHref = usableHref(profile.cvUrl);
-  const year = new Date().getFullYear();
+  const githubHref = usableHref(profile.githubUrl);
+  const linkedinHref = usableHref(profile.linkedinUrl);
+  const contacts = [
+    emailHref ? { href: emailHref, label: "Email", icon: <EmailIcon /> } : null,
+    upworkHref ? { href: upworkHref, label: "Upwork", icon: <UpworkIcon /> } : null,
+    githubHref ? { href: githubHref, label: "Github", icon: <GitHubIcon /> } : null,
+    linkedinHref ? { href: linkedinHref, label: "LinkedIn", icon: <LinkedInIcon /> } : null,
+    cvHref ? { href: cvHref, label: ui.cv, icon: <CvIcon /> } : null,
+  ].filter((item): item is { href: string; label: string; icon: ReactNode } => Boolean(item));
 
   return (
     <div id="top">
@@ -33,9 +42,9 @@ export function PortfolioHome({ content }: { content: SiteContent }) {
         toLightLabel={ui.switchToLight}
         toDarkLabel={ui.switchToDark}
       />
-      <div className="mx-auto grid w-full max-w-6xl gap-0 px-5 sm:px-8 lg:grid-cols-[18rem_minmax(0,1fr)] lg:gap-16">
+      <div className="mx-auto grid w-full max-w-6xl gap-0 px-5 sm:px-8 lg:grid-cols-[20rem_minmax(0,1fr)] lg:px-8">
         <Sidebar content={content} />
-        <main id="content" tabIndex={-1} className="pb-20 outline-none lg:py-16">
+        <main id="content" tabIndex={-1} className="pb-20 outline-none lg:py-10 lg:pl-12">
           <Section id="about" title={sectionTitle("about")}>
             <div className="max-w-2xl space-y-4 text-base leading-7 text-muted">
               {content.about.map((paragraph) => (
@@ -74,7 +83,9 @@ export function PortfolioHome({ content }: { content: SiteContent }) {
                   viewLabel={ui.viewProject}
                   liveLabel={ui.live}
                   codeLabel={ui.code}
+                  privateLabel={ui.privateDemo}
                   frameLabel={ui.preview}
+                  flowLabel={ui.flow}
                   priority={index === 0}
                 />
               ))}
@@ -98,69 +109,25 @@ export function PortfolioHome({ content }: { content: SiteContent }) {
           <Section id="contact" title={sectionTitle("contact")}>
             <p className="max-w-2xl text-base leading-7 text-muted">{content.contactIntro}</p>
             <p className="mt-3 max-w-2xl text-sm leading-6 text-muted">{profile.location}</p>
-            <div className="mt-6 flex flex-col gap-3 sm:flex-row">
-              <a
-                href={upworkHref ?? "#contact"}
-                className="inline-flex items-center justify-center rounded-full bg-accent px-4 py-2.5 text-sm font-semibold text-on-accent"
-                {...(upworkHref ? { target: "_blank", rel: "noreferrer" } : {})}
-              >
-                {ui.hireMe}
-              </a>
-              <a
-                href={emailHref ?? "#contact"}
-                className="inline-flex items-center justify-center rounded-full border border-line bg-card px-4 py-2.5 text-sm font-semibold text-ink"
-              >
-                {ui.emailMe}
-              </a>
-            </div>
-            <ul className="mt-8 space-y-2 text-sm text-muted">
-              <li>{emailHref ? <a href={emailHref}>{profile.email}</a> : profile.email}</li>
-              <li>
-                {upworkHref ? (
-                  <a href={upworkHref} target="_blank" rel="noreferrer">
-                    {profile.upworkUrl}
+            <ul className="mt-6 space-y-2">
+              {contacts.map((item) => (
+                <li key={item.label}>
+                  <a
+                    href={item.href}
+                    className="inline-flex items-center gap-3 py-1 text-sm font-medium leading-none text-ink hover:text-accent"
+                    {...(item.href.startsWith("mailto:")
+                      ? {}
+                      : { target: "_blank", rel: "noreferrer" })}
+                  >
+                    <span className="inline-flex size-8 shrink-0 items-center justify-center rounded-full border border-line bg-card text-accent">
+                      {item.icon}
+                    </span>
+                    {item.label}
                   </a>
-                ) : (
-                  profile.upworkUrl
-                )}
-              </li>
-              <li>
-                {usableHref(profile.githubUrl) ? (
-                  <a href={profile.githubUrl} target="_blank" rel="noreferrer">
-                    {profile.githubUrl}
-                  </a>
-                ) : (
-                  profile.githubUrl
-                )}
-              </li>
-              <li>
-                {usableHref(profile.linkedinUrl) ? (
-                  <a href={profile.linkedinUrl} target="_blank" rel="noreferrer">
-                    {profile.linkedinUrl}
-                  </a>
-                ) : (
-                  profile.linkedinUrl
-                )}
-              </li>
-              <li>
-                {ui.cv}
-                {": "}
-                {cvHref ? (
-                  <a href={cvHref} target="_blank" rel="noreferrer">
-                    {profile.cvUrl}
-                  </a>
-                ) : (
-                  profile.cvUrl
-                )}
-              </li>
+                </li>
+              ))}
             </ul>
           </Section>
-
-          <footer className="border-t border-line py-8 text-sm text-muted">
-            <p>
-              {ui.footer} · <span className="tabular-nums">{year}</span>
-            </p>
-          </footer>
         </main>
       </div>
       <script
@@ -168,5 +135,61 @@ export function PortfolioHome({ content }: { content: SiteContent }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(personJsonLd(content)) }}
       />
     </div>
+  );
+}
+
+function UpworkIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" className="shrink-0">
+      <path
+        fill="currentColor"
+        d="M18.561 13.158c-1.102 0-2.135-.467-3.074-1.227l.228-1.076.008-.042c.207-1.143.849-3.06 2.839-3.06 1.492 0 2.703 1.212 2.703 2.703-.001 1.489-1.212 2.702-2.704 2.702zm0-8.14c-2.539 0-4.51 1.649-5.31 4.366-1.22-1.834-2.148-4.036-2.687-5.892H7.828v7.112c-.002 1.406-1.141 2.546-2.547 2.548-1.405-.002-2.543-1.143-2.545-2.548V3.492H0v7.112c0 2.914 2.37 5.303 5.281 5.303 2.913 0 5.283-2.389 5.283-5.303v-1.19c.529 1.107 1.182 2.229 1.974 3.221l-1.673 7.873h2.797l1.213-5.71c1.063.679 2.285 1.109 3.686 1.109 3 0 5.439-2.452 5.439-5.45 0-3-2.439-5.439-5.439-5.439z"
+      />
+    </svg>
+  );
+}
+
+function GitHubIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" className="shrink-0">
+      <path
+        fill="currentColor"
+        d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
+      />
+    </svg>
+  );
+}
+
+function LinkedInIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" className="shrink-0">
+      <path
+        fill="currentColor"
+        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"
+      />
+    </svg>
+  );
+}
+
+function CvIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" className="shrink-0" fill="none">
+      <path
+        d="M7 3.5h6.5L19 9v10.5A1.5 1.5 0 0 1 17.5 21h-10A1.5 1.5 0 0 1 6 19.5v-14A1.5 1.5 0 0 1 7.5 4Z"
+        stroke="currentColor"
+        strokeWidth="1.8"
+        strokeLinejoin="round"
+      />
+      <path d="M13.5 3.8V9H19" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
+function EmailIcon() {
+  return (
+    <svg width="16" height="16" viewBox="0 0 24 24" aria-hidden="true" className="shrink-0" fill="none">
+      <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" strokeWidth="1.8" />
+      <path d="m4 7 8 6 8-6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
   );
 }
